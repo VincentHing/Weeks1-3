@@ -5,6 +5,7 @@ public class linearinterposcript : MonoBehaviour
     public Transform start;
     public Transform end;
     public float t;
+    public AnimationCurve curve;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
