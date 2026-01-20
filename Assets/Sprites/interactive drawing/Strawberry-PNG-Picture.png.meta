@@ -129,10 +129,10 @@ TextureImporter:
       name: Strawberry-PNG-Picture_0
       rect:
         serializedVersion: 2
-        x: 162
-        y: 47
-        width: 985
-        height: 1400
+        x: 0
+        y: 1000
+        width: 426
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,11 +147,187 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Strawberry-PNG-Picture_1
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1000
+        width: 426
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9a9c7c33bdc4e46be26750aa5fae62
+      internalID: -497508039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry-PNG-Picture_2
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1000
+        width: 426
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e9e20547b6c2d44b3ed48b6bb7a1c6
+      internalID: -703354295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry-PNG-Picture_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 426
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9248987865f91b43a9fb7a8290e912e
+      internalID: 328487481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry-PNG-Picture_4
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 500
+        width: 426
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310d0b941978ec745bdb1a8447488bd1
+      internalID: 252062891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry-PNG-Picture_5
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 500
+        width: 426
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c271107c5c7fa4b8360cea2be25cde
+      internalID: 1632920382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry-PNG-Picture_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 426
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24680f46c3154e498d062f4eebaafd1
+      internalID: -1373909182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry-PNG-Picture_7
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 426
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf182f908759c444a36558f9e33c07e
+      internalID: 1356151339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strawberry-PNG-Picture_8
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 0
+        width: 426
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2aad2a6acf8d64fbab620406506b3a
+      internalID: -587264911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 383596f4324215e4c8a189b67b6f079a
     internalID: 0
     vertices: []
     indices: 
@@ -162,6 +338,14 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Strawberry-PNG-Picture_0: 3442203502063915247
+      Strawberry-PNG-Picture_1: -497508039
+      Strawberry-PNG-Picture_2: -703354295
+      Strawberry-PNG-Picture_3: 328487481
+      Strawberry-PNG-Picture_4: 252062891
+      Strawberry-PNG-Picture_5: 1632920382
+      Strawberry-PNG-Picture_6: -1373909182
+      Strawberry-PNG-Picture_7: 1356151339
+      Strawberry-PNG-Picture_8: -587264911
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
