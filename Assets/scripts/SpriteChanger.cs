@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -5,16 +6,15 @@ public class SpriteChanger : MonoBehaviour
 {
     public SpriteRenderer spriteRenderer;
     public Color mycolour;
-    public Sprite barrel0;
-    public Sprite barrel1;
-    public Sprite barrel2;
+    public List <Sprite> barrels;
+    
     public int randomNumber;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-       //PickRandomColour();
-
+        //PickRandomColour();
+        PickARandomSprite();
     }
 
     // Update is called once per frame
@@ -22,8 +22,12 @@ public class SpriteChanger : MonoBehaviour
     {
         if (Keyboard.current.anyKey.wasPressedThisFrame == true)
         {
+            Debug.Log("try to change this sprite please");
             //PickRandomColour();
-            PickARandomSprite();
+            if (barrels.Count > 0)
+            {
+                PickARandomSprite();
+            }
         }
 
         //get the mouse position
@@ -40,7 +44,11 @@ public class SpriteChanger : MonoBehaviour
             //n: set the colour to white.
             spriteRenderer.color = Color.white;
         }
-        
+
+        if(Mouse.current.leftButton.wasPressedThisFrame == true && barrels.Count>0)
+        {
+            barrels.RemoveAt(0);
+        }
         
 
     }
@@ -56,21 +64,10 @@ public class SpriteChanger : MonoBehaviour
         //spriteRenderer
 
         //pick a random number
-        randomNumber = Random.Range(0, 3);
+        randomNumber = Random.Range(0, barrels.Count);
         //use that number to choose a sprite
         //assign that sprite to a renderer
-        if (randomNumber == 0)
-        {
-            spriteRenderer.sprite = barrel0;
-        }
-        else if (randomNumber == 1) 
-        {
-            spriteRenderer.sprite = barrel1;
-        }
-        else if (randomNumber == 2)
-        {
-            spriteRenderer.sprite = barrel2;
-        }
+        spriteRenderer.sprite = barrels[randomNumber];
     }
 
 
