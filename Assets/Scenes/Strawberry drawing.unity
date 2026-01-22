@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 53809259}
   - component: {fileID: 53809258}
+  - component: {fileID: 53809260}
   m_Layer: 0
   m_Name: Strawberry-PNG-Picture_2
   m_TagString: Untagged
@@ -200,12 +201,27 @@ Transform:
   m_GameObject: {fileID: 53809257}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.12, y: 2.5, z: 0}
+  m_LocalPosition: {x: 8.41, y: 4.74, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &53809260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53809257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3f4566500cb6594cb223fa4cc7bc8b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPos: {x: 8.41, y: 4.74}
+  endPos: {x: 2.12, y: 2.5}
+  distance: 0
 --- !u!1 &226651232
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,6 +319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 294956795}
   - component: {fileID: 294956794}
+  - component: {fileID: 294956796}
   m_Layer: 0
   m_Name: Strawberry-PNG-Picture_1
   m_TagString: Untagged
@@ -374,12 +391,27 @@ Transform:
   m_GameObject: {fileID: 294956793}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.5, z: 0}
+  m_LocalPosition: {x: 0.7, y: 3.9, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &294956796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294956793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3f4566500cb6594cb223fa4cc7bc8b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPos: {x: 0.7, y: 3.9}
+  endPos: {x: 0, y: 2.5}
+  distance: 0
 --- !u!1 &780375562
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,6 +559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 925681683}
   - component: {fileID: 925681682}
+  - component: {fileID: 925681684}
   m_Layer: 0
   m_Name: Strawberry-PNG-Picture_6
   m_TagString: Untagged
@@ -598,12 +631,27 @@ Transform:
   m_GameObject: {fileID: 925681681}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.12, y: -2.5, z: 0}
+  m_LocalPosition: {x: -2.82, y: -4.11, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &925681684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925681681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3f4566500cb6594cb223fa4cc7bc8b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPos: {x: -2.82, y: -4.11}
+  endPos: {x: -2.12, y: -2.5}
+  distance: 0
 --- !u!1 &947576341
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,6 +662,7 @@ GameObject:
   m_Component:
   - component: {fileID: 947576343}
   - component: {fileID: 947576342}
+  - component: {fileID: 947576344}
   m_Layer: 0
   m_Name: Strawberry-PNG-Picture_0
   m_TagString: Untagged
@@ -685,12 +734,27 @@ Transform:
   m_GameObject: {fileID: 947576341}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.12, y: 2.5, z: 0}
+  m_LocalPosition: {x: -4.32, y: 3.93, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &947576344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947576341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3f4566500cb6594cb223fa4cc7bc8b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPos: {x: -4.32, y: 3.93}
+  endPos: {x: -2.12, y: 2.5}
+  distance: 0
 --- !u!1 &1352160635
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,6 +765,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1352160637}
   - component: {fileID: 1352160636}
+  - component: {fileID: 1352160638}
   m_Layer: 0
   m_Name: Strawberry-PNG-Picture_5
   m_TagString: Untagged
@@ -772,12 +837,27 @@ Transform:
   m_GameObject: {fileID: 1352160635}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.12, y: 0, z: 0}
+  m_LocalPosition: {x: 5.62, y: -0.56, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1352160638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352160635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3f4566500cb6594cb223fa4cc7bc8b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPos: {x: 5.62, y: -0.56}
+  endPos: {x: 2.12, y: 0}
+  distance: 0
 --- !u!1 &1384654441
 GameObject:
   m_ObjectHideFlags: 0
@@ -788,6 +868,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1384654443}
   - component: {fileID: 1384654442}
+  - component: {fileID: 1384654444}
   m_Layer: 0
   m_Name: Strawberry-PNG-Picture_3
   m_TagString: Untagged
@@ -859,12 +940,27 @@ Transform:
   m_GameObject: {fileID: 1384654441}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.12, y: 0, z: 0}
+  m_LocalPosition: {x: -7.82, y: -0.21, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1384654444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384654441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3f4566500cb6594cb223fa4cc7bc8b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPos: {x: -7.82, y: -0.21}
+  endPos: {x: -2.12, y: 0}
+  distance: 0
 --- !u!1 &2045023356
 GameObject:
   m_ObjectHideFlags: 0
@@ -875,6 +971,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2045023358}
   - component: {fileID: 2045023357}
+  - component: {fileID: 2045023359}
   m_Layer: 0
   m_Name: Strawberry-PNG-Picture_8
   m_TagString: Untagged
@@ -946,12 +1043,27 @@ Transform:
   m_GameObject: {fileID: 2045023356}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.12, y: -2.5, z: 0}
+  m_LocalPosition: {x: 6.32, y: -4.7, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2045023359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045023356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3f4566500cb6594cb223fa4cc7bc8b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPos: {x: 6.32, y: -4.7}
+  endPos: {x: 2.12, y: -2.5}
+  distance: 0
 --- !u!1 &2061805095
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,6 +1074,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2061805097}
   - component: {fileID: 2061805096}
+  - component: {fileID: 2061805098}
   m_Layer: 0
   m_Name: Strawberry-PNG-Picture_7
   m_TagString: Untagged
@@ -1033,12 +1146,27 @@ Transform:
   m_GameObject: {fileID: 2061805095}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.5, z: 0}
+  m_LocalPosition: {x: 0.42, y: -3.9, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2061805098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061805095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3f4566500cb6594cb223fa4cc7bc8b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPos: {x: 0.42, y: -3.9}
+  endPos: {x: 0, y: -2.5}
+  distance: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
