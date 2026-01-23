@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 53809259}
   - component: {fileID: 53809258}
   - component: {fileID: 53809260}
+  - component: {fileID: 53809261}
   m_Layer: 0
   m_Name: Strawberry-PNG-Picture_2
   m_TagString: Untagged
@@ -201,8 +202,8 @@ Transform:
   m_GameObject: {fileID: 53809257}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.41, y: 4.74, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalPosition: {x: 8.5, y: 3.83, z: 0}
+  m_LocalScale: {x: 0.1629, y: 0.14975, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -222,6 +223,46 @@ MonoBehaviour:
   startPos: {x: 8.41, y: 4.74}
   endPos: {x: 2.12, y: 2.5}
   distance: 0
+--- !u!114 &53809261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53809257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8673561a2c599394cab66ff1f0345e13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endScale: {x: 0.5, y: 0.5}
+  startScale: {x: 0.1629, y: 0.14975}
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  distance: 0
+  curvePart: 0
 --- !u!1 &226651232
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,6 +361,7 @@ GameObject:
   - component: {fileID: 294956795}
   - component: {fileID: 294956794}
   - component: {fileID: 294956796}
+  - component: {fileID: 294956797}
   m_Layer: 0
   m_Name: Strawberry-PNG-Picture_1
   m_TagString: Untagged
@@ -391,8 +433,8 @@ Transform:
   m_GameObject: {fileID: 294956793}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.7, y: 3.9, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalPosition: {x: -0.1581, y: 4.8807, z: 0}
+  m_LocalScale: {x: 0.0971, y: 0.1077, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -412,6 +454,46 @@ MonoBehaviour:
   startPos: {x: 0.7, y: 3.9}
   endPos: {x: 0, y: 2.5}
   distance: 0
+--- !u!114 &294956797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294956793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8673561a2c599394cab66ff1f0345e13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endScale: {x: 0.5, y: 0.5}
+  startScale: {x: 0.0971, y: 0.1077}
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  distance: 0
+  curvePart: 0
 --- !u!1 &780375562
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,6 +642,7 @@ GameObject:
   - component: {fileID: 925681683}
   - component: {fileID: 925681682}
   - component: {fileID: 925681684}
+  - component: {fileID: 925681685}
   m_Layer: 0
   m_Name: Strawberry-PNG-Picture_6
   m_TagString: Untagged
@@ -631,8 +714,8 @@ Transform:
   m_GameObject: {fileID: 925681681}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.82, y: -4.11, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalPosition: {x: -5.06, y: -4.54, z: 0}
+  m_LocalScale: {x: 0.0894, y: 0.0894, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -652,6 +735,46 @@ MonoBehaviour:
   startPos: {x: -2.82, y: -4.11}
   endPos: {x: -2.12, y: -2.5}
   distance: 0
+--- !u!114 &925681685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925681681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8673561a2c599394cab66ff1f0345e13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endScale: {x: 0.5, y: 0.5}
+  startScale: {x: 0.0894, y: 0.0894}
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  distance: 0
+  curvePart: 0
 --- !u!1 &947576341
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,6 +786,7 @@ GameObject:
   - component: {fileID: 947576343}
   - component: {fileID: 947576342}
   - component: {fileID: 947576344}
+  - component: {fileID: 947576345}
   m_Layer: 0
   m_Name: Strawberry-PNG-Picture_0
   m_TagString: Untagged
@@ -734,8 +858,8 @@ Transform:
   m_GameObject: {fileID: 947576341}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.32, y: 3.93, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalPosition: {x: -5.038, y: 4.7706, z: 0}
+  m_LocalScale: {x: 0.1629, y: 0.16375, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -755,6 +879,46 @@ MonoBehaviour:
   startPos: {x: -4.32, y: 3.93}
   endPos: {x: -2.12, y: 2.5}
   distance: 0
+--- !u!114 &947576345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947576341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8673561a2c599394cab66ff1f0345e13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endScale: {x: 0.5, y: 0.5}
+  startScale: {x: 0.1629, y: 0.16375}
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  distance: 0
+  curvePart: 0
 --- !u!1 &1352160635
 GameObject:
   m_ObjectHideFlags: 0
@@ -766,6 +930,7 @@ GameObject:
   - component: {fileID: 1352160637}
   - component: {fileID: 1352160636}
   - component: {fileID: 1352160638}
+  - component: {fileID: 1352160639}
   m_Layer: 0
   m_Name: Strawberry-PNG-Picture_5
   m_TagString: Untagged
@@ -837,8 +1002,8 @@ Transform:
   m_GameObject: {fileID: 1352160635}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.62, y: -0.56, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalPosition: {x: 6.7629, y: -0.354, z: 0}
+  m_LocalScale: {x: 0.09405774, y: 0.09405774, z: 0.18811548}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -858,6 +1023,46 @@ MonoBehaviour:
   startPos: {x: 5.62, y: -0.56}
   endPos: {x: 2.12, y: 0}
   distance: 0
+--- !u!114 &1352160639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352160635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8673561a2c599394cab66ff1f0345e13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endScale: {x: 0.5, y: 0.5}
+  startScale: {x: 0.094757, y: 0.0940577}
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  distance: 0
+  curvePart: 0
 --- !u!1 &1384654441
 GameObject:
   m_ObjectHideFlags: 0
@@ -869,6 +1074,7 @@ GameObject:
   - component: {fileID: 1384654443}
   - component: {fileID: 1384654442}
   - component: {fileID: 1384654444}
+  - component: {fileID: 1384654445}
   m_Layer: 0
   m_Name: Strawberry-PNG-Picture_3
   m_TagString: Untagged
@@ -940,8 +1146,8 @@ Transform:
   m_GameObject: {fileID: 1384654441}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.82, y: -0.21, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalPosition: {x: -8.7157, y: 0.8413, z: 0}
+  m_LocalScale: {x: 0.0795, y: 0.0795, z: 0.159}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -961,6 +1167,46 @@ MonoBehaviour:
   startPos: {x: -7.82, y: -0.21}
   endPos: {x: -2.12, y: 0}
   distance: 0
+--- !u!114 &1384654445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384654441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8673561a2c599394cab66ff1f0345e13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endScale: {x: 0.5, y: 0.5}
+  startScale: {x: 0.0795, y: 0.0795}
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  distance: 0
+  curvePart: 0
 --- !u!1 &2045023356
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,6 +1218,7 @@ GameObject:
   - component: {fileID: 2045023358}
   - component: {fileID: 2045023357}
   - component: {fileID: 2045023359}
+  - component: {fileID: 2045023360}
   m_Layer: 0
   m_Name: Strawberry-PNG-Picture_8
   m_TagString: Untagged
@@ -1043,8 +1290,8 @@ Transform:
   m_GameObject: {fileID: 2045023356}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.32, y: -4.7, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalPosition: {x: 5.9, y: -4.61, z: 0}
+  m_LocalScale: {x: 0.1218, y: 0.2268, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1064,6 +1311,46 @@ MonoBehaviour:
   startPos: {x: 6.32, y: -4.7}
   endPos: {x: 2.12, y: -2.5}
   distance: 0
+--- !u!114 &2045023360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045023356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8673561a2c599394cab66ff1f0345e13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endScale: {x: 0.5, y: 0.5}
+  startScale: {x: 0.1218, y: 0.2268}
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  distance: 0
+  curvePart: 0
 --- !u!1 &2061805095
 GameObject:
   m_ObjectHideFlags: 0
@@ -1075,6 +1362,7 @@ GameObject:
   - component: {fileID: 2061805097}
   - component: {fileID: 2061805096}
   - component: {fileID: 2061805098}
+  - component: {fileID: 2061805099}
   m_Layer: 0
   m_Name: Strawberry-PNG-Picture_7
   m_TagString: Untagged
@@ -1146,8 +1434,8 @@ Transform:
   m_GameObject: {fileID: 2061805095}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.42, y: -3.9, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalPosition: {x: -0.4497, y: -2.8792, z: 0}
+  m_LocalScale: {x: 0.0917, y: 0.0917, z: 0.1834}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1167,6 +1455,46 @@ MonoBehaviour:
   startPos: {x: 0.42, y: -3.9}
   endPos: {x: 0, y: -2.5}
   distance: 0
+--- !u!114 &2061805099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061805095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8673561a2c599394cab66ff1f0345e13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endScale: {x: 0.5, y: 0.5}
+  startScale: {x: 0.0917, y: 0.0917}
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  distance: 0
+  curvePart: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
